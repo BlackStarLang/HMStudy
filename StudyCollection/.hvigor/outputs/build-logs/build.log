@@ -19458,3 +19458,729 @@ Solutions:
 [2025-03-26T20:08:51.193] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
 [2025-03-26T20:08:51.194] [DEBUG] debug-file - worker[1] exits with exit code 1.
 [2025-03-26T20:08:51.197] [DEBUG] debug-file - worker[6] exits with exit code 1.
+[2025-03-26T20:20:53.206] [DEBUG] debug-file - session manager: set active socket. socketId=JeSjLwvRngF0VMKvAAAD
+[2025-03-26T20:20:53.209] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-03-26T20:20:53.216] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-03-26T20:20:53.219] [DEBUG] debug-file - Cache service initialization finished in 4 ms 
+[2025-03-26T20:20:53.222] [DEBUG] debug-file - hvigorfile, resolving /Users/zongheng/Downloads/HMStudy/StudyCollection/hvigorfile.ts
+[2025-03-26T20:20:53.228] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-03-26T20:20:53.228] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-03-26T20:20:53.231] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-03-26T20:20:53.231] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-03-26T20:20:53.231] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-03-26T20:20:53.231] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-03-26T20:20:53.232] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  }
+} in this build.
+[2025-03-26T20:20:53.234] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-03-26T20:20:53.237] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-03-26T20:20:53.250] [DEBUG] debug-file - Sdk init in 16 ms 
+[2025-03-26T20:20:53.255] [DEBUG] debug-file - Project task initialization takes 5 ms 
+[2025-03-26T20:20:53.255] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-03-26T20:20:53.255] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/zongheng/Downloads/HMStudy/StudyCollection/hvigorfile.ts
+[2025-03-26T20:20:53.255] [DEBUG] debug-file - hvigorfile, resolve finished /Users/zongheng/Downloads/HMStudy/StudyCollection/hvigorfile.ts
+[2025-03-26T20:20:53.257] [DEBUG] debug-file - hvigorfile, resolving /Users/zongheng/Downloads/HMStudy/StudyCollection/Study/hvigorfile.ts
+[2025-03-26T20:20:53.260] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-03-26T20:20:53.260] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-03-26T20:20:53.262] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=Study, buildMode=debug
+[2025-03-26T20:20:53.262] [DEBUG] debug-file - Target 'default' config: {}
+[2025-03-26T20:20:53.262] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-03-26T20:20:53.262] [DEBUG] debug-file - Module 'Study' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+}
+[2025-03-26T20:20:53.262] [DEBUG] debug-file - Module 'Study' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "default"
+}
+[2025-03-26T20:20:53.262] [DEBUG] debug-file - End initialize module-target build option map, moduleName=Study
+[2025-03-26T20:20:53.262] [DEBUG] debug-file - Module 'Study' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2025-03-26T20:20:53.263] [DEBUG] debug-file - Module Study task initialization takes 1 ms 
+[2025-03-26T20:20:53.263] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-03-26T20:20:53.263] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/zongheng/Downloads/HMStudy/StudyCollection/Study/hvigorfile.ts
+[2025-03-26T20:20:53.263] [DEBUG] debug-file - hvigorfile, resolve finished /Users/zongheng/Downloads/HMStudy/StudyCollection/Study/hvigorfile.ts
+[2025-03-26T20:20:53.299] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 36 ms 
+[2025-03-26T20:20:53.299] [DEBUG] debug-file - project has submodules:Study
+[2025-03-26T20:20:53.300] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-03-26T20:20:53.301] [DEBUG] debug-file - load to the disk finished
+[2025-03-26T20:20:53.302] [DEBUG] debug-file - Module StudyCollection Collected Dependency: 
+[2025-03-26T20:20:53.302] [DEBUG] debug-file - Module StudyCollection's total dependency: 0
+[2025-03-26T20:20:53.302] [DEBUG] debug-file - Module Study Collected Dependency: 
+[2025-03-26T20:20:53.302] [DEBUG] debug-file - Module Study's total dependency: 0
+[2025-03-26T20:20:53.303] [DEBUG] debug-file - Configuration phase cost:83 ms 
+[2025-03-26T20:20:53.304] [DEBUG] debug-file - Configuration task cost before running: 92 ms 
+[2025-03-26T20:20:53.304] [DEBUG] debug-file - Executing task :Study:init
+[2025-03-26T20:20:53.304] [DEBUG] debug-file - Study : init cost memory 0.014190673828125
+[2025-03-26T20:20:53.304] [DEBUG] debug-file - runTaskFromQueue task cost before running: 92 ms 
+[2025-03-26T20:20:53.304] [INFO] debug-file - Finished :Study:init... after 1 ms 
+[2025-03-26T20:20:53.304] [DEBUG] debug-file - Executing task ::init
+[2025-03-26T20:20:53.304] [DEBUG] debug-file - StudyCollection : init cost memory 0.012939453125
+[2025-03-26T20:20:53.304] [DEBUG] debug-file - runTaskFromQueue task cost before running: 93 ms 
+[2025-03-26T20:20:53.304] [INFO] debug-file - Finished ::init... after 1 ms 
+[2025-03-26T20:20:53.306] [DEBUG] debug-file - Module 'Study' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2025-03-26T20:20:53.307] [DEBUG] debug-file - Module 'Study' target 'ohosTest' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "default"
+} in this build.
+[2025-03-26T20:20:53.309] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-03-26T20:20:53.335] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-26T20:20:53.335] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-26T20:20:53.346] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-03-26T20:20:53.346] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-03-26T20:21:05.730] [DEBUG] debug-file - session manager: set active socket. socketId=04dnyBheJs8yMjvpAAAF
+[2025-03-26T20:21:05.732] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-03-26T20:21:05.738] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-03-26T20:21:05.740] [DEBUG] debug-file - Cache service initialization finished in 3 ms 
+[2025-03-26T20:21:05.745] [DEBUG] debug-file - hvigorfile, resolving /Users/zongheng/Downloads/HMStudy/StudyCollection/hvigorfile.ts
+[2025-03-26T20:21:05.749] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-03-26T20:21:05.749] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-03-26T20:21:05.751] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-03-26T20:21:05.751] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-03-26T20:21:05.751] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-03-26T20:21:05.751] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-03-26T20:21:05.752] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  }
+} in this build.
+[2025-03-26T20:21:05.753] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-03-26T20:21:05.755] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-03-26T20:21:05.766] [DEBUG] debug-file - Sdk init in 13 ms 
+[2025-03-26T20:21:05.776] [DEBUG] debug-file - Project task initialization takes 11 ms 
+[2025-03-26T20:21:05.776] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-03-26T20:21:05.776] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/zongheng/Downloads/HMStudy/StudyCollection/hvigorfile.ts
+[2025-03-26T20:21:05.776] [DEBUG] debug-file - hvigorfile, resolve finished /Users/zongheng/Downloads/HMStudy/StudyCollection/hvigorfile.ts
+[2025-03-26T20:21:05.778] [DEBUG] debug-file - hvigorfile, resolving /Users/zongheng/Downloads/HMStudy/StudyCollection/Study/hvigorfile.ts
+[2025-03-26T20:21:05.781] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-03-26T20:21:05.781] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-03-26T20:21:05.784] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=Study, buildMode=debug
+[2025-03-26T20:21:05.784] [DEBUG] debug-file - Target 'default' config: {}
+[2025-03-26T20:21:05.785] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-03-26T20:21:05.785] [DEBUG] debug-file - Module 'Study' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+}
+[2025-03-26T20:21:05.785] [DEBUG] debug-file - Module 'Study' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "default"
+}
+[2025-03-26T20:21:05.785] [DEBUG] debug-file - End initialize module-target build option map, moduleName=Study
+[2025-03-26T20:21:05.785] [DEBUG] debug-file - Module 'Study' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2025-03-26T20:21:05.785] [DEBUG] debug-file - Module Study task initialization takes 1 ms 
+[2025-03-26T20:21:05.786] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-03-26T20:21:05.786] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/zongheng/Downloads/HMStudy/StudyCollection/Study/hvigorfile.ts
+[2025-03-26T20:21:05.786] [DEBUG] debug-file - hvigorfile, resolve finished /Users/zongheng/Downloads/HMStudy/StudyCollection/Study/hvigorfile.ts
+[2025-03-26T20:21:05.818] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 32 ms 
+[2025-03-26T20:21:05.818] [DEBUG] debug-file - project has submodules:Study
+[2025-03-26T20:21:05.819] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-03-26T20:21:05.820] [DEBUG] debug-file - load to the disk finished
+[2025-03-26T20:21:05.821] [DEBUG] debug-file - Module StudyCollection Collected Dependency: 
+[2025-03-26T20:21:05.821] [DEBUG] debug-file - Module StudyCollection's total dependency: 0
+[2025-03-26T20:21:05.821] [DEBUG] debug-file - Module Study Collected Dependency: 
+[2025-03-26T20:21:05.821] [DEBUG] debug-file - Module Study's total dependency: 0
+[2025-03-26T20:21:05.822] [DEBUG] debug-file - Configuration phase cost:80 ms 
+[2025-03-26T20:21:05.823] [DEBUG] debug-file - Configuration task cost before running: 90 ms 
+[2025-03-26T20:21:05.823] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:05.823] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:05.824] [DEBUG] debug-file - Executing task :Study:default@PreBuild
+[2025-03-26T20:21:05.825] [DEBUG] debug-file - Study:default@PreBuild is not up-to-date, since the input file '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/src/main/resources/base/profile/router_map.json' has been changed.
+[2025-03-26T20:21:05.825] [DEBUG] debug-file - Incremental task Study:default@PreBuild pre-execution cost: 1 ms .
+[2025-03-26T20:21:05.939] [DEBUG] debug-file - current product is not Atomic service.
+[2025-03-26T20:21:05.939] [DEBUG] debug-file - Use tool [darwin: JAVA_HOME, CLASSPATH]
+ [
+  {
+    JAVA_HOME: '/Applications/DevEco-Studio.app/Contents/jbr/Contents/Home'
+  },
+  { CLASSPATH: undefined }
+]
+[2025-03-26T20:21:05.939] [DEBUG] debug-file - Use tool [darwin: NODE_HOME]
+ [
+  {
+    NODE_HOME: '/Applications/DevEco-Studio.app/Contents/tools/node/bin'
+  }
+]
+[2025-03-26T20:21:05.939] [DEBUG] debug-file - Study : default@PreBuild cost memory 5.439689636230469
+[2025-03-26T20:21:05.939] [DEBUG] debug-file - runTaskFromQueue task cost before running: 207 ms 
+[2025-03-26T20:21:05.940] [INFO] debug-file - Finished :Study:default@PreBuild... after 116 ms 
+[2025-03-26T20:21:05.941] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:05.941] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:05.941] [DEBUG] debug-file - Executing task :Study:default@GenerateMetadata
+[2025-03-26T20:21:05.942] [DEBUG] debug-file - Incremental task Study:default@GenerateMetadata pre-execution cost: 1 ms .
+[2025-03-26T20:21:05.942] [DEBUG] debug-file - Study : default@GenerateMetadata cost memory 0.1378021240234375
+[2025-03-26T20:21:05.942] [INFO] debug-file - UP-TO-DATE :Study:default@GenerateMetadata...  
+[2025-03-26T20:21:05.943] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:05.943] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:05.943] [DEBUG] debug-file - Executing task :Study:default@ConfigureCmake
+[2025-03-26T20:21:05.943] [DEBUG] debug-file - Study : default@ConfigureCmake cost memory 0.01438140869140625
+[2025-03-26T20:21:05.943] [DEBUG] debug-file - runTaskFromQueue task cost before running: 210 ms 
+[2025-03-26T20:21:05.943] [INFO] debug-file - Finished :Study:default@ConfigureCmake... after 1 ms 
+[2025-03-26T20:21:05.944] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:05.944] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:05.944] [DEBUG] debug-file - Executing task :Study:default@MergeProfile
+[2025-03-26T20:21:05.945] [DEBUG] debug-file - Incremental task Study:default@MergeProfile pre-execution cost: 1 ms .
+[2025-03-26T20:21:05.945] [DEBUG] debug-file - Study : default@MergeProfile cost memory 0.08998870849609375
+[2025-03-26T20:21:05.945] [INFO] debug-file - UP-TO-DATE :Study:default@MergeProfile...  
+[2025-03-26T20:21:05.945] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:05.945] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:05.946] [DEBUG] debug-file - Executing task :Study:default@CreateBuildProfile
+[2025-03-26T20:21:05.946] [DEBUG] debug-file - Incremental task Study:default@CreateBuildProfile pre-execution cost: 1 ms .
+[2025-03-26T20:21:05.946] [DEBUG] debug-file - Study : default@CreateBuildProfile cost memory 0.11905670166015625
+[2025-03-26T20:21:05.946] [INFO] debug-file - UP-TO-DATE :Study:default@CreateBuildProfile...  
+[2025-03-26T20:21:05.947] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:05.947] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:05.947] [DEBUG] debug-file - Executing task :Study:default@PreCheckSyscap
+[2025-03-26T20:21:05.947] [DEBUG] debug-file - Study : default@PreCheckSyscap cost memory 0.0145721435546875
+[2025-03-26T20:21:05.947] [DEBUG] debug-file - runTaskFromQueue task cost before running: 214 ms 
+[2025-03-26T20:21:05.947] [INFO] debug-file - Finished :Study:default@PreCheckSyscap... after 1 ms 
+[2025-03-26T20:21:05.948] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:05.948] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:05.949] [DEBUG] debug-file - Executing task :Study:default@GeneratePkgContextInfo
+[2025-03-26T20:21:05.949] [DEBUG] debug-file - Incremental task Study:default@GeneratePkgContextInfo pre-execution cost: 1 ms .
+[2025-03-26T20:21:05.950] [DEBUG] debug-file - Study : default@GeneratePkgContextInfo cost memory 0.06111907958984375
+[2025-03-26T20:21:05.950] [INFO] debug-file - UP-TO-DATE :Study:default@GeneratePkgContextInfo...  
+[2025-03-26T20:21:05.950] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:05.950] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:05.951] [DEBUG] debug-file - Executing task :Study:default@ProcessIntegratedHsp
+[2025-03-26T20:21:05.951] [DEBUG] debug-file - Study:default@ProcessIntegratedHsp is not up-to-date, since the output file '/Users/zongheng/Downloads/HMStudy/StudyCollection/build/cache/default/integrated_hsp/integratedHspCache.json' does not exist.
+[2025-03-26T20:21:05.951] [DEBUG] debug-file - Incremental task Study:default@ProcessIntegratedHsp pre-execution cost: 1 ms .
+[2025-03-26T20:21:05.951] [DEBUG] debug-file - Study : default@ProcessIntegratedHsp cost memory 0.0887451171875
+[2025-03-26T20:21:05.952] [DEBUG] debug-file - runTaskFromQueue task cost before running: 219 ms 
+[2025-03-26T20:21:05.952] [INFO] debug-file - Finished :Study:default@ProcessIntegratedHsp... after 1 ms 
+[2025-03-26T20:21:05.952] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:05.952] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:05.952] [DEBUG] debug-file - Executing task :Study:default@BuildNativeWithCmake
+[2025-03-26T20:21:05.952] [DEBUG] debug-file - Study : default@BuildNativeWithCmake cost memory 0.01517486572265625
+[2025-03-26T20:21:05.952] [DEBUG] debug-file - runTaskFromQueue task cost before running: 220 ms 
+[2025-03-26T20:21:05.953] [INFO] debug-file - Finished :Study:default@BuildNativeWithCmake... after 1 ms 
+[2025-03-26T20:21:05.956] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:05.956] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:05.959] [DEBUG] debug-file - Executing task :Study:default@MakePackInfo
+[2025-03-26T20:21:05.960] [DEBUG] debug-file - Incremental task Study:default@MakePackInfo pre-execution cost: 1 ms .
+[2025-03-26T20:21:05.960] [DEBUG] debug-file - Study : default@MakePackInfo cost memory 0.1633758544921875
+[2025-03-26T20:21:05.960] [INFO] debug-file - UP-TO-DATE :Study:default@MakePackInfo...  
+[2025-03-26T20:21:05.961] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:05.961] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:05.961] [DEBUG] debug-file - Executing task :Study:default@ProcessProfile
+[2025-03-26T20:21:05.961] [DEBUG] debug-file - Incremental task Study:default@ProcessProfile pre-execution cost: 1 ms .
+[2025-03-26T20:21:05.961] [DEBUG] debug-file - Study : default@ProcessProfile cost memory 0.0540924072265625
+[2025-03-26T20:21:05.962] [INFO] debug-file - UP-TO-DATE :Study:default@ProcessProfile...  
+[2025-03-26T20:21:05.963] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:05.963] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:05.963] [DEBUG] debug-file - Executing task :Study:default@SyscapTransform
+[2025-03-26T20:21:05.964] [DEBUG] debug-file - Study:default@SyscapTransform is not up-to-date, since the output file '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/syscap/default/rpcid.sc' does not exist.
+[2025-03-26T20:21:05.964] [DEBUG] debug-file - Incremental task Study:default@SyscapTransform pre-execution cost: 1 ms .
+[2025-03-26T20:21:05.964] [DEBUG] debug-file - Study : default@SyscapTransform cost memory 0.08171844482421875
+[2025-03-26T20:21:05.964] [DEBUG] debug-file - runTaskFromQueue task cost before running: 231 ms 
+[2025-03-26T20:21:05.964] [INFO] debug-file - Finished :Study:default@SyscapTransform... after 1 ms 
+[2025-03-26T20:21:05.964] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:05.965] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:05.965] [DEBUG] debug-file - Executing task :Study:default@ProcessRouterMap
+[2025-03-26T20:21:05.967] [DEBUG] debug-file - Study:default@ProcessRouterMap is not up-to-date, since the input file '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/src/main/resources/base/profile/router_map.json' has been changed.
+[2025-03-26T20:21:05.967] [DEBUG] debug-file - Incremental task Study:default@ProcessRouterMap pre-execution cost: 2 ms .
+[2025-03-26T20:21:05.971] [DEBUG] debug-file - Study : default@ProcessRouterMap cost memory 0.68536376953125
+[2025-03-26T20:21:05.971] [DEBUG] debug-file - runTaskFromQueue task cost before running: 238 ms 
+[2025-03-26T20:21:05.971] [INFO] debug-file - Finished :Study:default@ProcessRouterMap... after 6 ms 
+[2025-03-26T20:21:05.972] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:05.972] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:05.972] [DEBUG] debug-file - Executing task :Study:default@BuildNativeWithNinja
+[2025-03-26T20:21:05.972] [DEBUG] debug-file - Study : default@BuildNativeWithNinja cost memory 0.02959442138671875
+[2025-03-26T20:21:05.972] [DEBUG] debug-file - runTaskFromQueue task cost before running: 239 ms 
+[2025-03-26T20:21:05.972] [INFO] debug-file - Finished :Study:default@BuildNativeWithNinja... after 1 ms 
+[2025-03-26T20:21:05.973] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:05.973] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:05.973] [DEBUG] debug-file - restool module names: Study; moduleName=Study, taskName=default@ProcessResource
+[2025-03-26T20:21:05.974] [DEBUG] debug-file - Executing task :Study:default@ProcessResource
+[2025-03-26T20:21:05.974] [DEBUG] debug-file - Incremental task Study:default@ProcessResource pre-execution cost: 1 ms .
+[2025-03-26T20:21:05.974] [DEBUG] debug-file - Study : default@ProcessResource cost memory 0.10648345947265625
+[2025-03-26T20:21:05.975] [INFO] debug-file - UP-TO-DATE :Study:default@ProcessResource...  
+[2025-03-26T20:21:05.976] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:05.976] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:05.977] [DEBUG] debug-file - Executing task :Study:default@GenerateLoaderJson
+[2025-03-26T20:21:05.980] [DEBUG] debug-file - Study:default@GenerateLoaderJson is not up-to-date, since the input file '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/router_map/default/loader-router-map.json' has been changed.
+[2025-03-26T20:21:05.980] [DEBUG] debug-file - Incremental task Study:default@GenerateLoaderJson pre-execution cost: 2 ms .
+[2025-03-26T20:21:05.983] [DEBUG] debug-file - Study : default@GenerateLoaderJson cost memory 0.9342117309570312
+[2025-03-26T20:21:05.983] [DEBUG] debug-file - runTaskFromQueue task cost before running: 250 ms 
+[2025-03-26T20:21:05.984] [INFO] debug-file - Finished :Study:default@GenerateLoaderJson... after 7 ms 
+[2025-03-26T20:21:05.985] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:05.985] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:05.985] [DEBUG] debug-file - Executing task :Study:default@ProcessLibs
+[2025-03-26T20:21:05.985] [DEBUG] debug-file - Incremental task Study:default@ProcessLibs pre-execution cost: 1 ms .
+[2025-03-26T20:21:05.985] [DEBUG] debug-file - Study : default@ProcessLibs cost memory 0.10986328125
+[2025-03-26T20:21:05.986] [INFO] debug-file - UP-TO-DATE :Study:default@ProcessLibs...  
+[2025-03-26T20:21:05.986] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:05.986] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:05.986] [DEBUG] debug-file - restool module names: Study; moduleName=Study, taskName=default@CompileResource
+[2025-03-26T20:21:05.987] [DEBUG] debug-file - Executing task :Study:default@CompileResource
+[2025-03-26T20:21:05.989] [DEBUG] debug-file - Study:default@CompileResource is not up-to-date, since the input file '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/src/main/resources' has been changed.
+[2025-03-26T20:21:05.989] [DEBUG] debug-file - Incremental task Study:default@CompileResource pre-execution cost: 2 ms .
+[2025-03-26T20:21:06.000] [DEBUG] debug-file - Use tool [/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/restool]
+ [
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/restool',
+  '-l',
+  '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default/resConfig.json'
+]
+[2025-03-26T20:21:06.000] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 185384960,
+  heapTotal: 134823936,
+  heapUsed: 102150792,
+  external: 2987834,
+  arrayBuffers: 873086
+} os memoryUsage :23.874313354492188
+[2025-03-26T20:21:06.034] [DEBUG] debug-file - Warning: /Users/zongheng/Downloads/HMStudy/StudyCollection/Study/src/main/resources/base/media/layered_image.json is not png format
+
+[2025-03-26T20:21:06.035] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2025-03-26T20:21:06.037] [DEBUG] debug-file - Study : default@CompileResource cost memory -4.1338043212890625
+[2025-03-26T20:21:06.037] [DEBUG] debug-file - runTaskFromQueue task cost before running: 304 ms 
+[2025-03-26T20:21:06.037] [INFO] debug-file - Finished :Study:default@CompileResource... after 50 ms 
+[2025-03-26T20:21:06.038] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:06.038] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:06.038] [DEBUG] debug-file - Executing task :Study:default@DoNativeStrip
+[2025-03-26T20:21:06.039] [DEBUG] debug-file - Incremental task Study:default@DoNativeStrip pre-execution cost: 1 ms .
+[2025-03-26T20:21:06.039] [DEBUG] debug-file - Study : default@DoNativeStrip cost memory 0.04784393310546875
+[2025-03-26T20:21:06.039] [INFO] debug-file - UP-TO-DATE :Study:default@DoNativeStrip...  
+[2025-03-26T20:21:06.039] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:06.039] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:06.040] [DEBUG] debug-file - Executing task :Study:default@CompileArkTS
+[2025-03-26T20:21:06.042] [DEBUG] debug-file - Study:default@CompileArkTS is not up-to-date, since the input file '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/loader/default' has been changed.
+[2025-03-26T20:21:06.042] [DEBUG] debug-file - Incremental task Study:default@CompileArkTS pre-execution cost: 1 ms .
+[2025-03-26T20:21:06.045] [DEBUG] debug-file - build config:
+[2025-03-26T20:21:06.045] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: '/Users/zongheng/Downloads/HMStudy/StudyCollection/local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  isLocalTest: false,
+  buildMode: 'Debug',
+  watchMode: 'false',
+  aceProfilePath: '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default/resources/base/profile',
+  etsLoaderPath: '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/ets/build-tools/ets-loader',
+  modulePath: '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: '/Users/zongheng/Downloads/HMStudy/StudyCollection',
+  compileSdkVersion: 12,
+  compatibleSdkVersion: 12,
+  compatibleSdkVersionStage: 'beta1',
+  bundleName: 'com.example.studycollection',
+  etsLoaderVersion: '5.0.0.71',
+  etsLoaderReleaseType: 'Release',
+  aotCompileMode: 'type',
+  apPath: '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/modules.ap',
+  entryModuleName: 'Study',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'study',
+  allModuleNameHash: '7b2a831ef4ab00452f35295695cdcf6e',
+  externalApiPaths: [ '/Applications/DevEco-Studio.app/Contents/sdk/default/hms/ets' ],
+  compilerTypes: undefined,
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  compilePluginPath: undefined,
+  buildGeneratedProfilePath: '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/generated/profile/default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 12,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  strictMode: {
+    caseSensitiveCheck: true,
+    useNormalizedOHMUrl: true,
+    noExternalImportByPath: true
+  },
+  buildDir: '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build',
+  deviceTypes: [ 'phone', 'tablet', '2in1' ],
+  useNormalizedOHMUrl: true,
+  pkgContextInfo: {
+    '@ohos/hypium': {
+      packageName: '@ohos/hypium',
+      bundleName: '',
+      moduleName: '',
+      version: '1.0.19',
+      entryPath: 'index.js',
+      isSO: false,
+      dependencyAlias: ''
+    },
+    '@ohos/hamock': {
+      packageName: '@ohos/hamock',
+      bundleName: '',
+      moduleName: '',
+      version: '1.0.0',
+      entryPath: 'index.ets',
+      isSO: false,
+      dependencyAlias: ''
+    },
+    study: {
+      packageName: 'study',
+      bundleName: '',
+      moduleName: '',
+      version: '',
+      entryPath: 'src/main/',
+      isSO: false,
+      dependencyAlias: ''
+    }
+  },
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: { requestPermissions: undefined, definePermissions: undefined },
+  integratedHsp: false,
+  projectArkOption: undefined,
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  caseSensitiveCheck: true,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  rootPathSet: [ '/Users/zongheng/Downloads/HMStudy/StudyCollection' ],
+  useNativeResolver: true,
+  aceModuleJsonPath: '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default/module.json',
+  appResource: '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default/ResourceTable.txt',
+  rawFileResource: '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default/resources/rawfile',
+  resourceTableHash: 'c8cf0b5264c5500e95c5a93c9c6f4042',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:12:5.0.0.71:Release',
+  aceModuleRoot: '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/src/main/ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/src/main/supervisual',
+  aceBuildJson: '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/loader/default/loader.json',
+  cachePath: '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/cache/default/default@CompileArkTS/esmodule/debug',
+  aceModuleBuild: '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/loader_out/default/ets',
+  supportChunks: true,
+  declaredFilesPath: undefined,
+  pkgNameToPkgBriefInfo: {
+    study: {
+      pkgRoot: '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'study'
+    }
+  },
+  projectModel: {
+    '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/src/main': {
+      moduleName: 'Study',
+      modulePkgPath: '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study',
+      belongProjectPath: '/Users/zongheng/Downloads/HMStudy/StudyCollection'
+    },
+    '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/src/ohosTest/ets': {
+      moduleName: 'Study_test',
+      modulePkgPath: '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study',
+      belongProjectPath: '/Users/zongheng/Downloads/HMStudy/StudyCollection'
+    },
+    '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/src/ohosTest': {
+      moduleName: 'Study_test',
+      modulePkgPath: '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study',
+      belongProjectPath: '/Users/zongheng/Downloads/HMStudy/StudyCollection'
+    },
+    '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study': {
+      moduleName: 'Study',
+      modulePkgPath: '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study',
+      belongProjectPath: '/Users/zongheng/Downloads/HMStudy/StudyCollection'
+    },
+    '/Users/zongheng/Downloads/HMStudy/StudyCollection': {
+      moduleName: 'StudyCollection',
+      modulePkgPath: '/Users/zongheng/Downloads/HMStudy/StudyCollection',
+      belongProjectPath: '/Users/zongheng/Downloads/HMStudy/StudyCollection'
+    }
+  },
+  pkgJsonFileHash: '07a419d168d91d87af538a0e3072b92c',
+  allModulePaths: [ '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study' ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  compileBlockPkg: [],
+  overallProjectPaths: [ '/Users/zongheng/Downloads/HMStudy/StudyCollection' ],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/src/mock/mock-config.json5',
+    mockConfigKey2ModuleInfo: {}
+  },
+  otherPaths: {
+    'study/*': [ '../*', '../../../build/default/generated/profile/default/*' ]
+  },
+  collectImportersConfig: undefined
+}
+[2025-03-26T20:21:06.046] [DEBUG] debug-file - Compile arkts with external api path: /Applications/DevEco-Studio.app/Contents/sdk/default/hms/ets
+[2025-03-26T20:21:06.046] [DEBUG] debug-file - default@CompileArkTS work[3] is submitted.
+[2025-03-26T20:21:06.046] [DEBUG] debug-file - default@CompileArkTS work[3] is pushed to ready queue.
+[2025-03-26T20:21:06.046] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2025-03-26T20:21:06.046] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2025-03-26T20:21:06.046] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2025-03-26T20:21:06.046] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2025-03-26T20:21:06.046] [DEBUG] debug-file - A work dispatched to worker[3] failed because unable to get work from ready queue.
+[2025-03-26T20:21:06.046] [DEBUG] debug-file - A work dispatched to worker[2] failed because unable to get work from ready queue.
+[2025-03-26T20:21:06.046] [DEBUG] debug-file - A work dispatched to worker[1] failed because unable to get work from ready queue.
+[2025-03-26T20:21:06.047] [DEBUG] debug-file - default@CompileArkTS work[3] has been dispatched to worker[0].
+[2025-03-26T20:21:06.047] [DEBUG] debug-file - default@CompileArkTS work[3] is dispatched.
+[2025-03-26T20:21:06.047] [DEBUG] debug-file - CopyResources startTime: 607537004555000
+[2025-03-26T20:21:06.047] [DEBUG] debug-file - default@CompileArkTS work[4] is submitted.
+[2025-03-26T20:21:06.047] [DEBUG] debug-file - default@CompileArkTS work[4] is pushed to ready queue.
+[2025-03-26T20:21:06.047] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2025-03-26T20:21:06.047] [DEBUG] debug-file - Create  resident worker with id: 6.
+[2025-03-26T20:21:06.048] [DEBUG] debug-file - default@CompileArkTS work[4] has been dispatched to worker[6].
+[2025-03-26T20:21:06.048] [DEBUG] debug-file - default@CompileArkTS work[4] is dispatched.
+[2025-03-26T20:21:06.048] [DEBUG] debug-file - Study : default@CompileArkTS cost memory 1.50238037109375
+[2025-03-26T20:21:06.049] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:06.049] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:06.050] [DEBUG] debug-file - Executing task :Study:default@BuildJS
+[2025-03-26T20:21:06.051] [DEBUG] debug-file - Study : default@BuildJS cost memory 0.14530181884765625
+[2025-03-26T20:21:06.051] [DEBUG] debug-file - runTaskFromQueue task cost before running: 318 ms 
+[2025-03-26T20:21:06.051] [INFO] debug-file - Finished :Study:default@BuildJS... after 1 ms 
+[2025-03-26T20:21:06.051] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:06.051] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:06.052] [DEBUG] debug-file - Executing task :Study:default@CacheNativeLibs
+[2025-03-26T20:21:06.052] [DEBUG] debug-file - Incremental task Study:default@CacheNativeLibs pre-execution cost: 1 ms .
+[2025-03-26T20:21:06.052] [DEBUG] debug-file - Study : default@CacheNativeLibs cost memory 0.0545806884765625
+[2025-03-26T20:21:06.052] [INFO] debug-file - UP-TO-DATE :Study:default@CacheNativeLibs...  
+[2025-03-26T20:21:06.398] [DEBUG] debug-file - worker[6] has one work done.
+[2025-03-26T20:21:06.399] [DEBUG] debug-file - CopyResources is end, endTime: 607537356347166
+[2025-03-26T20:21:06.399] [DEBUG] debug-file - default@CompileArkTS work[4] done.
+[2025-03-26T20:21:06.603] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2025-03-26T20:21:06.740] [DEBUG] debug-file - worker[0] has one work done.
+[2025-03-26T20:21:06.740] [DEBUG] debug-file - Ark compile task finished.finished time is 607537698071750
+[2025-03-26T20:21:06.746] [DEBUG] debug-file - default@CompileArkTS work[3] done.
+[2025-03-26T20:21:06.747] [INFO] debug-file - Finished :Study:default@CompileArkTS... after 706 ms 
+[2025-03-26T20:21:06.748] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:06.748] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:06.748] [DEBUG] debug-file - Executing task :Study:default@GeneratePkgModuleJson
+[2025-03-26T20:21:06.748] [DEBUG] debug-file - Study:default@GeneratePkgModuleJson is not up-to-date, since the input file '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default/module.json' has been changed.
+[2025-03-26T20:21:06.748] [DEBUG] debug-file - Incremental task Study:default@GeneratePkgModuleJson pre-execution cost: 1 ms .
+[2025-03-26T20:21:06.748] [DEBUG] debug-file - Study : default@GeneratePkgModuleJson cost memory 0.06626129150390625
+[2025-03-26T20:21:06.749] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 16 ms 
+[2025-03-26T20:21:06.749] [INFO] debug-file - Finished :Study:default@GeneratePkgModuleJson... after 1 ms 
+[2025-03-26T20:21:06.749] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:06.749] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:06.751] [DEBUG] debug-file - Executing task :Study:default@PackageHap
+[2025-03-26T20:21:06.753] [DEBUG] debug-file - Study:default@PackageHap is not up-to-date, since the input file '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default/module.json' has been changed.
+[2025-03-26T20:21:06.753] [DEBUG] debug-file - Incremental task Study:default@PackageHap pre-execution cost: 1 ms .
+[2025-03-26T20:21:06.753] [DEBUG] debug-file - Use tool [/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/lib/app_packing_tool.jar]
+ [
+  'java',
+  '-Dfile.encoding=utf-8',
+  '-jar',
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/lib/app_packing_tool.jar',
+  '--mode',
+  'hap',
+  '--force',
+  'true',
+  '--lib-path',
+  '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/stripped_native_libs/default',
+  '--json-path',
+  '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/package/default/module.json',
+  '--resources-path',
+  '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default/resources',
+  '--index-path',
+  '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default/resources.index',
+  '--pack-info-path',
+  '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/outputs/default/pack.info',
+  '--out-path',
+  '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/outputs/default/Study-default-unsigned.hap',
+  '--ets-path',
+  '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/loader_out/default/ets',
+  '--pkg-context-path',
+  '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/loader/default/pkgContextInfo.json'
+]
+[2025-03-26T20:21:06.754] [DEBUG] debug-file - default@PackageHap work[5] is submitted.
+[2025-03-26T20:21:06.754] [DEBUG] debug-file - default@PackageHap work[5] is pushed to ready queue.
+[2025-03-26T20:21:06.754] [DEBUG] debug-file - default@PackageHap work[5] is not dispatched.
+[2025-03-26T20:21:06.755] [DEBUG] debug-file - Study : default@PackageHap cost memory 0.5314865112304688
+[2025-03-26T20:21:06.956] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2025-03-26T20:21:06.957] [DEBUG] debug-file - default@PackageHap work[5] has been dispatched to worker[6].
+[2025-03-26T20:21:06.979] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 534740992,
+  heapTotal: 73662464,
+  heapUsed: 47876896,
+  external: 2599057,
+  arrayBuffers: 628168
+} os memoryUsage :23.91766357421875
+[2025-03-26T20:21:07.048] [DEBUG] debug-file - A work dispatched to worker[0] failed because unable to get work from ready queue.
+[2025-03-26T20:21:07.191] [DEBUG] debug-file - worker[6] has one work done.
+[2025-03-26T20:21:07.191] [DEBUG] debug-file - default@PackageHap work[5] done.
+[2025-03-26T20:21:07.191] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2025-03-26T20:21:07.192] [INFO] debug-file - Finished :Study:default@PackageHap... after 239 ms 
+[2025-03-26T20:21:07.193] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-26T20:21:07.193] [DEBUG] debug-file - jsonObjWithoutParam {"name":"study","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-26T20:21:07.194] [DEBUG] debug-file - Executing task :Study:default@SignHap
+[2025-03-26T20:21:07.195] [WARN] debug-file - Will skip sign 'hos_hap'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in /Users/zongheng/Downloads/HMStudy/StudyCollection/build-profile.json5.
+[2025-03-26T20:21:07.195] [DEBUG] debug-file - Study:default@SignHap is not up-to-date, since the input file '/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/outputs/default/Study-default-unsigned.hap' has been changed.
+[2025-03-26T20:21:07.195] [DEBUG] debug-file - Incremental task Study:default@SignHap pre-execution cost: 1 ms .
+[2025-03-26T20:21:07.195] [DEBUG] debug-file - Study : default@SignHap cost memory 0.130340576171875
+[2025-03-26T20:21:07.195] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 462 ms 
+[2025-03-26T20:21:07.195] [INFO] debug-file - Finished :Study:default@SignHap... after 1 ms 
+[2025-03-26T20:21:07.196] [DEBUG] debug-file - Executing task :Study:assembleHap
+[2025-03-26T20:21:07.196] [DEBUG] debug-file - Study : assembleHap cost memory 0.01277923583984375
+[2025-03-26T20:21:07.196] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 463 ms 
+[2025-03-26T20:21:07.196] [INFO] debug-file - Finished :Study:assembleHap... after 1 ms 
+[2025-03-26T20:21:07.197] [DEBUG] debug-file - BUILD SUCCESSFUL in 1 s 464 ms 
+[2025-03-26T20:21:07.197] [DEBUG] debug-file - Update task Study:default@PreBuild input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/AppScope/app.json5 cache by regenerate.
+[2025-03-26T20:21:07.197] [DEBUG] debug-file - Update task Study:default@PreBuild input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/src/main/module.json5 cache by regenerate.
+[2025-03-26T20:21:07.197] [DEBUG] debug-file - Update task Study:default@PreBuild input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/build-profile.json5 cache by regenerate.
+[2025-03-26T20:21:07.197] [DEBUG] debug-file - Update task Study:default@PreBuild input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build-profile.json5 cache by regenerate.
+[2025-03-26T20:21:07.197] [DEBUG] debug-file - Update task Study:default@PreBuild input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/src/main/resources/base/profile/router_map.json cache from map.
+[2025-03-26T20:21:07.197] [DEBUG] debug-file - Update task Study:default@PreBuild input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/src/main/resources/base/profile/main_pages.json cache by regenerate.
+[2025-03-26T20:21:07.197] [DEBUG] debug-file - Update task Study:default@PreBuild input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/hvigor/hvigor-config.json5 cache by regenerate.
+[2025-03-26T20:21:07.197] [DEBUG] debug-file - Update task Study:default@PreBuild input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/src/mock/mock-config.json5 cache by regenerate.
+[2025-03-26T20:21:07.197] [DEBUG] debug-file - Update task Study:default@PreBuild input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/oh-package.json5 cache by regenerate.
+[2025-03-26T20:21:07.197] [DEBUG] debug-file - Incremental task Study:default@PreBuild post-execution cost:1 ms .
+[2025-03-26T20:21:07.197] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task Study:default@GenerateMetadata is up-to-date.
+[2025-03-26T20:21:07.197] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task Study:default@MergeProfile is up-to-date.
+[2025-03-26T20:21:07.197] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task Study:default@CreateBuildProfile is up-to-date.
+[2025-03-26T20:21:07.197] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task Study:default@GeneratePkgContextInfo is up-to-date.
+[2025-03-26T20:21:07.198] [DEBUG] debug-file - Update task Study:default@ProcessIntegratedHsp output file:/Users/zongheng/Downloads/HMStudy/StudyCollection/build/cache/default/integrated_hsp/integratedHspCache.json cache.
+[2025-03-26T20:21:07.198] [DEBUG] debug-file - Incremental task Study:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2025-03-26T20:21:07.198] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task Study:default@MakePackInfo is up-to-date.
+[2025-03-26T20:21:07.198] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task Study:default@ProcessProfile is up-to-date.
+[2025-03-26T20:21:07.198] [DEBUG] debug-file - Update task Study:default@SyscapTransform input file:/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/syscap_tool cache by regenerate.
+[2025-03-26T20:21:07.198] [DEBUG] debug-file - Update task Study:default@SyscapTransform input file:/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/ets/api/device-define cache by regenerate.
+[2025-03-26T20:21:07.198] [DEBUG] debug-file - Update task Study:default@SyscapTransform output file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/syscap/default/rpcid.sc cache.
+[2025-03-26T20:21:07.198] [DEBUG] debug-file - Incremental task Study:default@SyscapTransform post-execution cost:1 ms .
+[2025-03-26T20:21:07.199] [DEBUG] debug-file - Update task Study:default@ProcessRouterMap input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/oh-package.json5 cache by regenerate.
+[2025-03-26T20:21:07.199] [DEBUG] debug-file - Update task Study:default@ProcessRouterMap input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/oh-package.json5 cache by regenerate.
+[2025-03-26T20:21:07.199] [DEBUG] debug-file - Update task Study:default@ProcessRouterMap input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/src/main/module.json5 cache by regenerate.
+[2025-03-26T20:21:07.199] [DEBUG] debug-file - Update task Study:default@ProcessRouterMap input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/src/main/resources/base/profile/router_map.json cache from map.
+[2025-03-26T20:21:07.199] [DEBUG] debug-file - Update task Study:default@ProcessRouterMap input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/loader/default/pkgContextInfo.json cache by regenerate.
+[2025-03-26T20:21:07.199] [DEBUG] debug-file - Update task Study:default@ProcessRouterMap output file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/router_map/default/router_map.json cache.
+[2025-03-26T20:21:07.199] [DEBUG] debug-file - Update task Study:default@ProcessRouterMap output file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/router_map/default/loader-router-map.json cache.
+[2025-03-26T20:21:07.199] [DEBUG] debug-file - Incremental task Study:default@ProcessRouterMap post-execution cost:1 ms .
+[2025-03-26T20:21:07.199] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task Study:default@ProcessResource is up-to-date.
+[2025-03-26T20:21:07.200] [DEBUG] debug-file - Update task Study:default@GenerateLoaderJson input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/src/mock/mock-config.json5 cache by regenerate.
+[2025-03-26T20:21:07.200] [DEBUG] debug-file - Update task Study:default@GenerateLoaderJson input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/loader/default/pkgContextInfo.json cache by regenerate.
+[2025-03-26T20:21:07.200] [DEBUG] debug-file - Update task Study:default@GenerateLoaderJson input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/router_map/default/loader-router-map.json cache from map.
+[2025-03-26T20:21:07.200] [DEBUG] debug-file - Update task Study:default@GenerateLoaderJson input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/router_map/default/router_map.json cache by regenerate.
+[2025-03-26T20:21:07.200] [DEBUG] debug-file - Update task Study:default@GenerateLoaderJson output file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/loader/default/loader.json cache.
+[2025-03-26T20:21:07.200] [DEBUG] debug-file - Incremental task Study:default@GenerateLoaderJson post-execution cost:2 ms .
+[2025-03-26T20:21:07.200] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task Study:default@ProcessLibs is up-to-date.
+[2025-03-26T20:21:07.201] [DEBUG] debug-file - Update task Study:default@CompileResource input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/src/main/resources cache from map.
+[2025-03-26T20:21:07.201] [DEBUG] debug-file - Update task Study:default@CompileResource input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/AppScope/resources cache by regenerate.
+[2025-03-26T20:21:07.201] [DEBUG] debug-file - Update task Study:default@CompileResource input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/process_profile/default/module.json cache by regenerate.
+[2025-03-26T20:21:07.201] [DEBUG] debug-file - Update task Study:default@CompileResource input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/router_map/default/router_map.json cache by regenerate.
+[2025-03-26T20:21:07.201] [DEBUG] debug-file - Update task Study:default@CompileResource input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default/resConfig.json cache by regenerate.
+[2025-03-26T20:21:07.201] [DEBUG] debug-file - Update task Study:default@CompileResource output file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default cache.
+[2025-03-26T20:21:07.201] [DEBUG] debug-file - Update task Study:default@CompileResource output file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/generated/r/default/ResourceTable.h cache.
+[2025-03-26T20:21:07.201] [DEBUG] debug-file - Update task Study:default@CompileResource output file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/generated/r/default cache.
+[2025-03-26T20:21:07.202] [DEBUG] debug-file - Incremental task Study:default@CompileResource post-execution cost:2 ms .
+[2025-03-26T20:21:07.202] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task Study:default@DoNativeStrip is up-to-date.
+[2025-03-26T20:21:07.202] [DEBUG] debug-file - Update task Study:default@CompileArkTS input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/loader/default cache from map.
+[2025-03-26T20:21:07.202] [DEBUG] debug-file - Update task Study:default@CompileArkTS input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default/resources/rawfile cache by regenerate.
+[2025-03-26T20:21:07.202] [DEBUG] debug-file - Update task Study:default@CompileArkTS input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default/ResourceTable.txt cache by regenerate.
+[2025-03-26T20:21:07.202] [DEBUG] debug-file - Update task Study:default@CompileArkTS input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default/module.json cache by regenerate.
+[2025-03-26T20:21:07.202] [DEBUG] debug-file - Update task Study:default@CompileArkTS input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default/resources/base/profile cache by regenerate.
+[2025-03-26T20:21:07.202] [DEBUG] debug-file - Update task Study:default@CompileArkTS input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/src/main/ets cache by regenerate.
+[2025-03-26T20:21:07.203] [DEBUG] debug-file - Update task Study:default@CompileArkTS input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/loader/default/pkgContextInfo.json cache by regenerate.
+[2025-03-26T20:21:07.203] [DEBUG] debug-file - Update task Study:default@CompileArkTS input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/generated/profile/default/BuildProfile.ets cache by regenerate.
+[2025-03-26T20:21:07.203] [DEBUG] debug-file - Update task Study:default@CompileArkTS input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/src/mock/mock-config.json5 cache by regenerate.
+[2025-03-26T20:21:07.203] [DEBUG] debug-file - Update task Study:default@CompileArkTS output file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/loader_out/default/ets cache.
+[2025-03-26T20:21:07.203] [DEBUG] debug-file - Incremental task Study:default@CompileArkTS post-execution cost:2 ms .
+[2025-03-26T20:21:07.203] [DEBUG] debug-file - Update task Study:default@BuildJS input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/loader/default cache by regenerate.
+[2025-03-26T20:21:07.204] [DEBUG] debug-file - Update task Study:default@BuildJS input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default/resources/rawfile cache by regenerate.
+[2025-03-26T20:21:07.204] [DEBUG] debug-file - Update task Study:default@BuildJS input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default/ResourceTable.txt cache by regenerate.
+[2025-03-26T20:21:07.204] [DEBUG] debug-file - Update task Study:default@BuildJS input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default/module.json cache by regenerate.
+[2025-03-26T20:21:07.204] [DEBUG] debug-file - Update task Study:default@BuildJS input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default/resources/base/profile cache by regenerate.
+[2025-03-26T20:21:07.204] [DEBUG] debug-file - Update task Study:default@BuildJS input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/loader/default/pkgContextInfo.json cache by regenerate.
+[2025-03-26T20:21:07.204] [DEBUG] debug-file - Update task Study:default@BuildJS output file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/loader_out/default/js cache.
+[2025-03-26T20:21:07.204] [DEBUG] debug-file - Incremental task Study:default@BuildJS post-execution cost:1 ms .
+[2025-03-26T20:21:07.204] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task Study:default@CacheNativeLibs is up-to-date.
+[2025-03-26T20:21:07.204] [DEBUG] debug-file - Update task Study:default@GeneratePkgModuleJson input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default/module.json cache from map.
+[2025-03-26T20:21:07.204] [DEBUG] debug-file - Update task Study:default@GeneratePkgModuleJson output file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/package/default/module.json cache.
+[2025-03-26T20:21:07.204] [DEBUG] debug-file - Incremental task Study:default@GeneratePkgModuleJson post-execution cost:1 ms .
+[2025-03-26T20:21:07.204] [DEBUG] debug-file - Update task Study:default@PackageHap input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/stripped_native_libs/default cache by regenerate.
+[2025-03-26T20:21:07.204] [DEBUG] debug-file - Update task Study:default@PackageHap input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default/module.json cache from map.
+[2025-03-26T20:21:07.204] [DEBUG] debug-file - Update task Study:default@PackageHap input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default/resources cache by regenerate.
+[2025-03-26T20:21:07.205] [DEBUG] debug-file - Update task Study:default@PackageHap input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default/resources.index cache by regenerate.
+[2025-03-26T20:21:07.205] [DEBUG] debug-file - Update task Study:default@PackageHap input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/outputs/default/pack.info cache by regenerate.
+[2025-03-26T20:21:07.205] [DEBUG] debug-file - Update task Study:default@PackageHap input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/loader_out/default/ets cache by regenerate.
+[2025-03-26T20:21:07.205] [DEBUG] debug-file - Update task Study:default@PackageHap input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/loader/default/pkgContextInfo.json cache by regenerate.
+[2025-03-26T20:21:07.205] [DEBUG] debug-file - Update task Study:default@PackageHap input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/generated/profile/default/BuildProfile.ets cache by regenerate.
+[2025-03-26T20:21:07.205] [DEBUG] debug-file - Update task Study:default@PackageHap output file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/outputs/default/Study-default-unsigned.hap cache.
+[2025-03-26T20:21:07.205] [DEBUG] debug-file - Update task Study:default@PackageHap output file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/outputs/default/mapping/sourceMaps.map cache.
+[2025-03-26T20:21:07.205] [DEBUG] debug-file - Incremental task Study:default@PackageHap post-execution cost:1 ms .
+[2025-03-26T20:21:07.205] [DEBUG] debug-file - Update task Study:default@SignHap input file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/outputs/default/Study-default-unsigned.hap cache from map.
+[2025-03-26T20:21:07.205] [DEBUG] debug-file - Update task Study:default@SignHap output file:/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/outputs/default/Study-default-signed.hap cache.
+[2025-03-26T20:21:07.205] [DEBUG] debug-file - Incremental task Study:default@SignHap post-execution cost:1 ms .
+[2025-03-26T20:21:07.213] [DEBUG] debug-file - Cleanup worker 6.
+[2025-03-26T20:21:07.213] [DEBUG] debug-file - Worker 6 has been cleaned up.
+[2025-03-26T20:21:07.213] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-03-26T20:21:07.213] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-03-26T20:21:07.214] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-03-26T20:21:07.216] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-26T20:21:07.216] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-26T20:21:07.216] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-03-26T20:21:07.216] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-03-26T20:21:07.217] [DEBUG] debug-file - worker[6] exits with exit code 1.

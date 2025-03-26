@@ -1,15 +1,15 @@
 {
   "src": [
     "pages/Index",
-    "pages/AnimationPage",
-    "pages/CanvasPage",
-    "pages/DevicePage",
-    "pages/FormPage",
-    "pages/LayoutPage",
-    "pages/MediaPage",
-    "pages/NavigationPage",
-    "pages/OtherPage",
-    "pages/SystemPage",
-    "pages/ListPage"
+    "pages/SecondPage/AnimationPage",
+    "pages/SecondPage/CanvasPage",
+    "pages/SecondPage/DevicePage",
+    "pages/SecondPage/FormPage",
+    "pages/SecondPage/LayoutPage",
+    "pages/SecondPage/MediaPage",
+    "pages/SecondPage/NavigationPage",
+    "pages/SecondPage/OtherPage",
+    "pages/SecondPage/SystemPage",
+    "pages/SecondPage/ListPage"
   ]
 }
