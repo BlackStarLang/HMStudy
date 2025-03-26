@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8bfef8b0-61fe-4bbf-af82-217f5e35c1b1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/AppScope/app.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppScope/resources/base/element/string.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppScope/resources/base/media/app_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/build-profile.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/hvigorfile.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/obfuscation-rules.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/oh-package.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/src/main/ets/hmstudyability/HMStudyAbility.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/src/main/ets/hmstudybackupability/HMStudyBackupAbility.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/src/main/ets/pages/Index.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/src/main/module.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/src/main/resources/base/element/color.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/src/main/resources/base/element/string.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/src/main/resources/base/media/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/src/main/resources/base/media/foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/src/main/resources/base/media/layered_image.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/src/main/resources/base/media/startIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/src/main/resources/base/profile/backup_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/src/main/resources/base/profile/main_pages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/src/main/resources/en_US/element/string.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/src/main/resources/zh_CN/element/string.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/src/mock/mock-config.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/src/ohosTest/ets/test/Ability.test.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/src/ohosTest/ets/test/List.test.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/src/ohosTest/module.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/src/test/List.test.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMStudy/src/test/LocalUnit.test.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-profile.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-linter.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hvigor/hvigor-config.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hvigorfile.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh-package-lock.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh-package.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hamock@1.0.0/oh_modules/@ohos/hamock/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hamock@1.0.0/oh_modules/@ohos/hamock/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hamock@1.0.0/oh_modules/@ohos/hamock/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hamock@1.0.0/oh_modules/@ohos/hamock/build-profile.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hamock@1.0.0/oh_modules/@ohos/hamock/hvigorfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hamock@1.0.0/oh_modules/@ohos/hamock/hvigorfile.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hamock@1.0.0/oh_modules/@ohos/hamock/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hamock@1.0.0/oh_modules/@ohos/hamock/index.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hamock@1.0.0/oh_modules/@ohos/hamock/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hamock@1.0.0/oh_modules/@ohos/hamock/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hamock@1.0.0/oh_modules/@ohos/hamock/oh-package.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hamock@1.0.0/oh_modules/@ohos/hamock/src/main/mock/ArgumentMatchers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hamock@1.0.0/oh_modules/@ohos/hamock/src/main/mock/ArgumentMatchers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hamock@1.0.0/oh_modules/@ohos/hamock/src/main/mock/ExtendInterface.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hamock@1.0.0/oh_modules/@ohos/hamock/src/main/mock/ExtendInterface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hamock@1.0.0/oh_modules/@ohos/hamock/src/main/mock/MockKit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hamock@1.0.0/oh_modules/@ohos/hamock/src/main/mock/MockKit.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hamock@1.0.0/oh_modules/@ohos/hamock/src/main/mock/VerificationMode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hamock@1.0.0/oh_modules/@ohos/hamock/src/main/mock/VerificationMode.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hamock@1.0.0/oh_modules/@ohos/hamock/src/main/module.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hamock@1.0.0/oh_modules/@ohos/hamock/src/res/schemas/mock-config-json5-schema.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/BuildProfile.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/build-profile.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/hvigorfile.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/index.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/oh-package.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/Constant.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/interface.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/ExpectExtend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/assertClose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/assertContain.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/assertFail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/assertFalse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/assertInstanceOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/assertLarger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/assertLargerOrEqual.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/assertLess.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/assertLessOrEqual.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/assertNaN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/assertNegUnlimited.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/assertNull.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/assertPosUnlimited.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/assertPromiseIsPending.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/assertPromiseIsRejected.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/assertPromiseIsRejectedWith.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/assertPromiseIsRejectedWithError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/assertPromiseIsResolved.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/assertPromiseIsResolvedWith.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/assertThrowError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/assertUndefined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/deepEquals/DeepTypeUtils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/deepEquals/assertDeepEquals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/assert/isPromiseLike.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/config/DataDriver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/config/Filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/config/configService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/coverage/coverageCollect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/kit/SysTestKit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/mock/ArgumentMatchers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/mock/ExtendInterface.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/mock/MockKit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/mock/VerificationMode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/report/LogExpectError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/report/OhReport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/module/report/ReportExtend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/@ohos+hypium@1.0.19/oh_modules/@ohos/hypium/src/main/testrunner/OpenHarmonyTestRunner.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/oh_modules/@ohos/hamock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/.ohpm/oh_modules/@ohos/hypium" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/@ohos/hamock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh_modules/@ohos/hypium" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2uptwHww17W0or3MZRELHcO7zq5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/zongheng/Downloads/HMStudy"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+</project>

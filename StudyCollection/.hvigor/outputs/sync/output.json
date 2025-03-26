@@ -1,0 +1,170 @@
+{
+  "ohos-module-Study": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build",
+    "DEPENDENCY_INFO": {},
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/src/main",
+        "RESOURCES_PATH": [
+          "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/cache/default/default@CompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/cache/default/default@CompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/hap_metadata/default/output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      },
+      "ohosTest": {
+        "SOURCE_ROOT": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/src/ohosTest",
+        "RESOURCES_PATH": [
+          "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/src/ohosTest/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/outputs/ohosTest",
+          "INTERMEDIA_PATH": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/loader_out/ohosTest",
+          "JS_LITE_ASSETS_PATH": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/loader_out_lite/ohosTest",
+          "RES_PATH": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/ohosTest",
+          "RES_PROFILE_PATH": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/res/ohosTest/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/cache/ohosTest/ohosTest@OhosTestCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/cache/ohosTest/ohosTest@OhosTestCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/loader/ohosTest/loader.json",
+          "MANIFEST_JSON": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/manifest/ohosTest",
+          "OUTPUT_METADATA_JSON": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build/default/intermediates/hap_metadata/ohosTest/output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "caseSensitiveCheck": true,
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": false,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    }
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "/Users/zongheng/Downloads/HMStudy/StudyCollection/build",
+    "BUNDLE_NAME": "com.example.studycollection",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "/Users/zongheng/Downloads/HMStudy/StudyCollection/build/outputs/default"
+    },
+    "MODULES": [
+      {
+        "name": "Study",
+        "srcPath": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Users/zongheng/Downloads/HMStudy/StudyCollection"
+      }
+    ],
+    "PROFILE_OPT": {
+      "app": {
+        "signingConfigs": [],
+        "products": [
+          {
+            "name": "default",
+            "signingConfig": "default",
+            "compatibleSdkVersion": "5.0.0(12)",
+            "runtimeOS": "HarmonyOS",
+            "buildOption": {
+              "strictMode": {
+                "caseSensitiveCheck": true,
+                "useNormalizedOHMUrl": true
+              }
+            }
+          }
+        ],
+        "buildModeSet": [
+          {
+            "name": "debug"
+          },
+          {
+            "name": "release"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "name": "Study",
+          "srcPath": "./Study",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false,
+      "hvigor.keepDependency": true
+    },
+    "OVERALL_PROJECT_PATHS": [
+      "/Users/zongheng/Downloads/HMStudy/StudyCollection"
+    ]
+  },
+  "version": 1
+}
