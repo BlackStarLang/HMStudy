@@ -1,4 +1,5 @@
 ## 鸿蒙学习合集
+### 跟我一起学习鸿蒙吧，欢迎你的加入
 
 1、首页 Navigation、NaviDestination 的使用
 
