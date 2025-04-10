@@ -5,6 +5,8 @@
   "main": "",
   "author": "",
   "license": "",
-  "dependencies": {}
+  "dependencies": {
+    '@pura/harmony-utils': 'latest'
+  }
 }
 

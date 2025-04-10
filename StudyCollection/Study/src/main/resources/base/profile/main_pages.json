@@ -1,7 +1,7 @@
 {
   "src": [
     "pages/Index",
-    "pages/SecondPage/AnimationPage",
+    "pages/AnimationPage/AnimationPage",
     "pages/SecondPage/CanvasPage",
     "pages/SecondPage/DevicePage",
     "pages/SecondPage/FormPage",

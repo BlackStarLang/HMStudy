@@ -4,7 +4,9 @@ import router from '@ohos.router';
 @Component
 struct Index {
   private dataArr: ListItemModel[] = ListItemModel.getListPageModels();
-  private navPath: NavPathStack = new NavPathStack();
+  @Provide('NavPathStack') navPath: NavPathStack = new NavPathStack();
+  @Provide naviMode: NavigationMode = NavigationMode.Auto;//分栏检测
+  @State currentIndex : number = 0;
 
   build() {
     Navigation(this.navPath) {
@@ -20,8 +22,23 @@ struct Index {
                 .height('55')
                 .margin({ left: '20', right: '20' })
                 .onClick(() => {
-                  this.navPath.replacePath({ name: item.pathName, isEntry: true } , true);
-                  // router.pushUrl({ url: item.pageUrl });
+                  console.log('lang : count = ' , this.navPath.size());
+                  if (this.currentIndex === index && this.naviMode === NavigationMode.Split && this.navPath.size() <= 1 ) {
+                    return;
+                  }
+                  if (this.naviMode === NavigationMode.Split) {
+                    if (this.navPath.size() <= 1) {
+                      this.navPath.replacePath({ name: item.pathName }, true);
+                    } else {
+                      this.navPath.popToIndex(0, false);
+                      if (this.currentIndex !== index){
+                        this.navPath.replacePath({ name: item.pathName }, true);
+                      }
+                    }
+                  } else {
+                    this.navPath.pushPath({ name: item.pathName }, true);
+                  }
+                  this.currentIndex = index;
                 })
             }
             .width('100%')
@@ -40,13 +57,17 @@ struct Index {
       .width('100%')
       .height('100%')
     }
-    .onAppear(()=>{
-      this.navPath.pushPath({ name: this.dataArr[0].pathName, isEntry: true });
-    })
     .title('HMStudy')
     .titleMode(NavigationTitleMode.Full)
     .mode(NavigationMode.Auto)
     .navBarWidth(280)
+    .onNavigationModeChange((mode: NavigationMode) => {
+      this.naviMode = mode;
+      if (this.naviMode === NavigationMode.Split && this.navPath.size() <= 0) {
+        this.navPath.replacePath({ name: 'CanvasPage' }, true);
+        this.currentIndex = 0;
+      }
+    })
   }
 }
 

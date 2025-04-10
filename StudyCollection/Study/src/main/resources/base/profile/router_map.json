@@ -2,7 +2,7 @@
   "routerMap": [
     {
       "name": "AnimationPage",
-      "pageSourceFile": "src/main/ets/pages/SecondPage/AnimationPage.ets",
+      "pageSourceFile": "src/main/ets/pages/AnimationPage/AnimationPage.ets",
       "buildFunction": "AnimationPageEntry",
       "data": {
         "description": "this is pageOne"
@@ -52,6 +52,26 @@
       "name": "ListPage",
       "pageSourceFile": "src/main/ets/pages/SecondPage/ListPage.ets",
       "buildFunction": "ListPageEntry"
+    },
+    {
+      "name": "AnimateTo",
+      "pageSourceFile": "src/main/ets/pages/AnimationPage/AnimateTo.ets",
+      "buildFunction": "AnimateToEntry"
+    },
+    {
+      "name": "Animation",
+      "pageSourceFile": "src/main/ets/pages/AnimationPage/Animation.ets",
+      "buildFunction": "AnimationEntry"
+    },
+    {
+      "name": "KeyframeAnimate",
+      "pageSourceFile": "src/main/ets/pages/AnimationPage/KeyframeAnimate.ets",
+      "buildFunction": "KeyframeAnimateEntry"
+    },
+    {
+      "name": "PageTransition",
+      "pageSourceFile": "src/main/ets/pages/AnimationPage/PageTransition.ets",
+      "buildFunction": "PageTransitionEntry"
     }
   ]
 }

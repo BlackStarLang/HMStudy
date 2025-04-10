@@ -1,3 +1,5 @@
+import { NaviView } from "../../Component/NaviView";
+
 @Entry
 @Component
 struct CanvasPage {
@@ -5,9 +7,20 @@ struct CanvasPage {
   dialCtx: CanvasRenderingContext2D = new CanvasRenderingContext2D(this.dialSetting);
   setting: RenderingContextSettings = new RenderingContextSettings();
   ctx: CanvasRenderingContext2D = new CanvasRenderingContext2D(this.setting);
+  @Consume('NavPathStack') navPath: NavPathStack;
+  @Consume naviMode: NavigationMode;
 
   build() {
     NavDestination() {
+      if (this.naviMode !== NavigationMode.Split) {
+        NaviView({
+          title: 'Canvas',
+          menus: [],
+          backButtonClick: () => {
+            this.navPath.pop(true);
+          }
+        })
+      }
       Stack() {
         Canvas(this.dialCtx)
           .width(300)
@@ -27,7 +40,7 @@ struct CanvasPage {
           })
       }
       .width("100%")
-      .height("100%")
+      .layoutWeight(1)
     }
     .hideTitleBar(true)
   }

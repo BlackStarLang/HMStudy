@@ -2,7 +2,9 @@
   "ohos-module-Study": {
     "SELECT_TARGET": "default",
     "MODULE_BUILD_DIR": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/build",
-    "DEPENDENCY_INFO": {},
+    "DEPENDENCY_INFO": {
+      "@pura/harmony-utils": "/Users/zongheng/Downloads/HMStudy/StudyCollection/oh_modules/.ohpm/@pura+harmony-utils@1.3.1/oh_modules/@pura/harmony-utils"
+    },
     "TARGETS": {
       "default": {
         "SOURCE_ROOT": "/Users/zongheng/Downloads/HMStudy/StudyCollection/Study/src/main",
