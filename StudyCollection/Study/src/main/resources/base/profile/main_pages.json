@@ -1,5 +1,15 @@
 {
   "src": [
-    "pages/Index"
+    "pages/Index",
+    "pages/AnimationPage/AnimationPage",
+    "pages/SecondPage/CanvasPage",
+    "pages/SecondPage/DevicePage",
+    "pages/SecondPage/FormPage",
+    "pages/SecondPage/LayoutPage",
+    "pages/SecondPage/MediaPage",
+    "pages/SecondPage/NavigationPage",
+    "pages/SecondPage/OtherPage",
+    "pages/SecondPage/SystemPage",
+    "pages/SecondPage/ListPage"
   ]
 }

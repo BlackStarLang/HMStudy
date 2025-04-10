@@ -1,0 +1,77 @@
+{
+  "routerMap": [
+    {
+      "name": "AnimationPage",
+      "pageSourceFile": "src/main/ets/pages/AnimationPage/AnimationPage.ets",
+      "buildFunction": "AnimationPageEntry",
+      "data": {
+        "description": "this is pageOne"
+      }
+    },
+    {
+      "name": "CanvasPage",
+      "pageSourceFile": "src/main/ets/pages/SecondPage/CanvasPage.ets",
+      "buildFunction": "CanvasPageEntry"
+    },
+    {
+      "name": "DevicePage",
+      "pageSourceFile": "src/main/ets/pages/SecondPage/DevicePage.ets",
+      "buildFunction": "DevicePageEntry"
+    },
+    {
+      "name": "FormPage",
+      "pageSourceFile": "src/main/ets/pages/SecondPage/FormPage.ets",
+      "buildFunction": "FormPageEntry"
+    },
+    {
+      "name": "LayoutPage",
+      "pageSourceFile": "src/main/ets/pages/SecondPage/LayoutPage.ets",
+      "buildFunction": "LayoutPageEntry"
+    },
+    {
+      "name": "MediaPage",
+      "pageSourceFile": "src/main/ets/pages/SecondPage/MediaPage.ets",
+      "buildFunction": "MediaPageEntry"
+    },
+    {
+      "name": "NavigationPage",
+      "pageSourceFile": "src/main/ets/pages/SecondPage/NavigationPage.ets",
+      "buildFunction": "NavigationPageEntry"
+    },
+    {
+      "name": "OtherPage",
+      "pageSourceFile": "src/main/ets/pages/SecondPage/OtherPage.ets",
+      "buildFunction": "OtherPageEntry"
+    },
+    {
+      "name": "SystemPage",
+      "pageSourceFile": "src/main/ets/pages/SecondPage/SystemPage.ets",
+      "buildFunction": "SystemPageEntry"
+    },
+    {
+      "name": "ListPage",
+      "pageSourceFile": "src/main/ets/pages/SecondPage/ListPage.ets",
+      "buildFunction": "ListPageEntry"
+    },
+    {
+      "name": "AnimateTo",
+      "pageSourceFile": "src/main/ets/pages/AnimationPage/AnimateTo.ets",
+      "buildFunction": "AnimateToEntry"
+    },
+    {
+      "name": "Animation",
+      "pageSourceFile": "src/main/ets/pages/AnimationPage/Animation.ets",
+      "buildFunction": "AnimationEntry"
+    },
+    {
+      "name": "KeyframeAnimate",
+      "pageSourceFile": "src/main/ets/pages/AnimationPage/KeyframeAnimate.ets",
+      "buildFunction": "KeyframeAnimateEntry"
+    },
+    {
+      "name": "PageTransition",
+      "pageSourceFile": "src/main/ets/pages/AnimationPage/PageTransition.ets",
+      "buildFunction": "PageTransitionEntry"
+    }
+  ]
+}
