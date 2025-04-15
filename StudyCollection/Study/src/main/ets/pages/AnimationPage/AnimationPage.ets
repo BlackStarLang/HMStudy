@@ -1,4 +1,5 @@
 import { NaviView } from "../../Component/NaviView";
+import { CustomTransition } from "../PageTransitionSupport/PageTransitionSupport";
 
 @Entry
 @Component
@@ -12,6 +13,7 @@ struct AnimationPage {
     ['Animation', 'AnimateTo', 'KeyframeAnimate', 'PageTransition', 'KeyframeAnimate', 'KeyframeAnimate',
       'KeyframeAnimate',
       'KeyframeAnimate', 'KeyframeAnimate', 'KeyframeAnimate'];
+  private pageId: string = '';
 
   build() {
     NavDestination() {
@@ -40,10 +42,31 @@ struct AnimationPage {
           })
         }, (item: string) => item)
       }
+      .width('100%')
       .divider({ strokeWidth: 0.5, color: '#4d000000', startMargin: 20 })
       .layoutWeight(1)
     }
     .hideTitleBar(true)
+    .onDisAppear(() => {
+      // 页面销毁时解注册自定义转场动画参数
+      CustomTransition.getInstance().unRegisterNavParam(this.pageId);
+    })
+    .onReady((context: NavDestinationContext) => {
+      if (context.navDestinationId) {
+        this.pageId = context.navDestinationId;
+        this.registerCallback();
+      }
+    })
+  }
+
+  registerCallback() {
+    CustomTransition.getInstance().registerNavParam({
+      animateId: this.pageId,
+      beginState: () => {
+      },
+      endState: () => {
+      }
+    });
   }
 }
 

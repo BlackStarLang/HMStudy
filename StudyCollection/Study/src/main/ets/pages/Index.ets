@@ -1,12 +1,13 @@
 import router from '@ohos.router';
+import { AnimateState, CustomTransition } from './PageTransitionSupport/PageTransitionSupport';
 
 @Entry
 @Component
 struct Index {
   private dataArr: ListItemModel[] = ListItemModel.getListPageModels();
   @Provide('NavPathStack') navPath: NavPathStack = new NavPathStack();
-  @Provide naviMode: NavigationMode = NavigationMode.Auto;//分栏检测
-  @State currentIndex : number = 0;
+  @Provide naviMode: NavigationMode = NavigationMode.Auto; //分栏检测
+  @State currentIndex: number = 0;
 
   build() {
     Navigation(this.navPath) {
@@ -22,8 +23,8 @@ struct Index {
                 .height('55')
                 .margin({ left: '20', right: '20' })
                 .onClick(() => {
-                  console.log('lang : count = ' , this.navPath.size());
-                  if (this.currentIndex === index && this.naviMode === NavigationMode.Split && this.navPath.size() <= 1 ) {
+                  if (this.currentIndex === index && this.naviMode === NavigationMode.Split &&
+                    this.navPath.size() <= 1) {
                     return;
                   }
                   if (this.naviMode === NavigationMode.Split) {
@@ -31,7 +32,7 @@ struct Index {
                       this.navPath.replacePath({ name: item.pathName }, true);
                     } else {
                       this.navPath.popToIndex(0, false);
-                      if (this.currentIndex !== index){
+                      if (this.currentIndex !== index) {
                         this.navPath.replacePath({ name: item.pathName }, true);
                       }
                     }
@@ -68,6 +69,76 @@ struct Index {
         this.currentIndex = 0;
       }
     })
+    .customNavContentTransition((from: NavContentInfo, to: NavContentInfo, operate: NavigationOperation) => {
+      if (from.index === -1 || to.index === -1) { ///根页面，不动画
+        return undefined;
+      }
+      return this.getAnimation(from, to, operate);
+    })
+  }
+
+  getAnimation(from: NavContentInfo, to: NavContentInfo,
+    operation: NavigationOperation): NavigationAnimatedTransition | undefined {
+
+    if (!from.navDestinationId || !to.navDestinationId) {
+      return undefined;
+    }
+
+    let fromParam: AnimateState = CustomTransition.getInstance().getAnimateParam(from.navDestinationId);
+    let toParam: AnimateState = CustomTransition.getInstance().getAnimateParam(to.navDestinationId);
+
+    if (!fromParam.beginState || !fromParam.endState || !toParam.beginState || !toParam.endState) {
+      return undefined;
+    }
+
+    let animationTransition: NavigationAnimatedTransition = {
+
+      timeout: 1000,
+      transition: (transitionProxy: NavigationTransitionProxy) => {
+
+        if (operation == NavigationOperation.PUSH) {
+          if (fromParam.beginState && toParam.beginState) {
+            // 设置Push转场的两个页面的动画起点
+            fromParam.beginState(true, false);
+            toParam.beginState(true, true);
+          }
+          animateTo({
+            duration: 1000, curve: Curve.Friction, onFinish: () => {
+              // 动画结束后需要手动调用finishTransition，否则在timeout时间后由系统调用
+              transitionProxy.finishTransition();
+            }
+          }, () => {
+            if (fromParam.endState && toParam.endState) {
+              // 设置Push转场的两个页面的动画终点
+              fromParam.endState(true, false);
+              toParam.endState(true, true);
+            }
+          })
+        } else if (operation == NavigationOperation.POP) {
+          // Pop动画
+          if (fromParam.beginState && toParam.beginState) {
+            // 设置Pop转场的两个页面的动画起点
+            fromParam.beginState(false, false);
+            toParam.beginState(false, true);
+          }
+          animateTo({
+            duration: 1000, curve: Curve.Friction, onFinish: () => {
+              // 动画结束后需要手动调用finishTransition，否则在timeout时间后由系统调用
+              transitionProxy.finishTransition();
+            }
+          }, () => {
+            if (fromParam.endState && toParam.endState) {
+              // 设置Pop转场的两个页面的动画终点
+              fromParam.endState(false, false);
+              toParam.endState(false, true);
+            }
+          })
+        } else {
+          // Replace不做动画
+        }
+      }
+    }
+    return animationTransition;
   }
 }
 
