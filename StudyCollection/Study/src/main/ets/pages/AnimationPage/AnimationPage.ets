@@ -1,4 +1,5 @@
 import { NaviView } from "../../Component/NaviView";
+import { CustomTransition } from "../PageTransitionSupport/PageTransitionSupport";
 
 @Entry
 @Component
@@ -6,12 +7,13 @@ struct AnimationPage {
   @Consume('NavPathStack') navPath: NavPathStack;
   @Consume naviMode: NavigationMode;
   private animateTypes: string[] =
-    ['属性动画', '显式动画', '关键帧动画', '页面间转场', '组件内转场', '共享元素转场', '组件内隐式共享元素转场',
+    ['属性动画(完成)', '显式动画(完成)', '关键帧动画(完成)', 'Navigation页面间转场(完成)', '组件内转场', '共享元素转场', '组件内隐式共享元素转场',
       '路径动画', '粒子动画', '显式动画立即下发'];
   private pushTarget: string[] =
     ['Animation', 'AnimateTo', 'KeyframeAnimate', 'PageTransition', 'KeyframeAnimate', 'KeyframeAnimate',
       'KeyframeAnimate',
       'KeyframeAnimate', 'KeyframeAnimate', 'KeyframeAnimate'];
+  private pageId: string = '';
 
   build() {
     NavDestination() {
@@ -40,10 +42,31 @@ struct AnimationPage {
           })
         }, (item: string) => item)
       }
+      .width('100%')
       .divider({ strokeWidth: 0.5, color: '#4d000000', startMargin: 20 })
       .layoutWeight(1)
     }
     .hideTitleBar(true)
+    .onDisAppear(() => {
+      // 页面销毁时解注册自定义转场动画参数
+      CustomTransition.getInstance().unRegisterNavParam(this.pageId);
+    })
+    .onReady((context: NavDestinationContext) => {
+      if (context.navDestinationId) {
+        this.pageId = context.navDestinationId;
+        this.registerCallback();
+      }
+    })
+  }
+
+  registerCallback() {
+    CustomTransition.getInstance().registerNavParam({
+      animateId: this.pageId,
+      beginState: () => {
+      },
+      endState: () => {
+      }
+    });
   }
 }
 
