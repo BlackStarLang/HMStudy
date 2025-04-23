@@ -7,12 +7,11 @@ struct AnimationPage {
   @Consume('NavPathStack') navPath: NavPathStack;
   @Consume naviMode: NavigationMode;
   private animateTypes: string[] =
-    ['属性动画(完成)', '显式动画(完成)', '关键帧动画(完成)', 'Navigation页面间转场(完成)', '组件内转场', '共享元素转场', '组件内隐式共享元素转场',
-      '路径动画', '粒子动画', '显式动画立即下发'];
+    ['属性动画(完成)', '显式动画(完成)', '关键帧动画(完成)', 'Navigation页面间转场(完成)', '组件内动画(完成)',
+      '路径动画', '粒子动画',];
   private pushTarget: string[] =
-    ['Animation', 'AnimateTo', 'KeyframeAnimate', 'PageTransition', 'KeyframeAnimate', 'KeyframeAnimate',
-      'KeyframeAnimate',
-      'KeyframeAnimate', 'KeyframeAnimate', 'KeyframeAnimate'];
+    ['Animation', 'AnimateTo', 'KeyframeAnimate', 'PageTransition', 'ComponentAnimate', 'KeyframeAnimate',
+      'KeyframeAnimate'];
   private pageId: string = '';
 
   build() {

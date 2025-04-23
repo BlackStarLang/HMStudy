@@ -72,6 +72,21 @@
       "name": "PageTransition",
       "pageSourceFile": "src/main/ets/pages/AnimationPage/PageTransition.ets",
       "buildFunction": "PageTransitionEntry"
+    },
+    {
+      "name": "ComponentAnimate",
+      "pageSourceFile": "src/main/ets/pages/AnimationPage/ComponentAnimate.ets",
+      "buildFunction": "ComponentAnimateEntry"
+    },
+    {
+      "name": "PathAnimation",
+      "pageSourceFile": "src/main/ets/pages/AnimationPage/PathAnimation.ets",
+      "buildFunction": "PathAnimationEntry"
+    },
+    {
+      "name": "ParticleAnimation",
+      "pageSourceFile": "src/main/ets/pages/AnimationPage/ParticleAnimation.ets",
+      "buildFunction": "ParticleAnimationEntry"
     }
   ]
 }

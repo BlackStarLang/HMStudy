@@ -53,7 +53,12 @@ struct KeyframeAnimate {
           .fontColor('#ffffffff')
           .backgroundColor('#ffff2828')
           .borderRadius(4)
-          .padding({ top: 8, bottom: 8 , left: 10, right: 10 })
+          .padding({
+            top: 8,
+            bottom: 8,
+            left: 10,
+            right: 10
+          })
           .onClick(() => {
             this.startAnimate();
           })
